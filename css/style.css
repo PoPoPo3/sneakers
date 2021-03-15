@@ -1,4 +1,112 @@
-h1 {
-  color: #D7B399;
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.page-light {
+  background-color: #F9F6F1;
+}
+
+.wrapper {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 126px;
+}
+
+.nav {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.nav-item {
+  padding-right: 45px;
+}
+
+.nav-link {
+  color: #212121;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.cart {
+  background-image: url(../img/card.svg);
+  display: block;
+  padding-left: 45px;
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-position: 0 center;
+}
+
+.cart-count {
+  background-image: url(../img/card_item.svg);
+  background-repeat: no-repeat;
+  background-position: 0 center;
+  background-color: #D7B399;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 10px 24px;
+  display: block;
+}
+
+.btn {
+  background-color: #D7B399;
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 18px 20px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-item {
+  flex: 0 0 50%;
+}
+
+.main .sale-description {
+  font-weight: 400;
+  font-size: 30px;
+  letter-spacing: -0.6px;
+}
+
+.main .sale-title {
+  font-size: 55px;
+  font-weight: 700;
+  margin-bottom: 60px;
+  margin-top: 30px;
+}
+
+.box {
+  position: relative;
+}
+
+.box-price {
+  position: absolute;
+  right: 0;
+  text-align: right;
+}
+
+.box-price-old {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.box-price-new {
+  font-size: 42px;
+  font-weight: 700;
+  color: #D84033;
 }
 /*# sourceMappingURL=style.css.map */
